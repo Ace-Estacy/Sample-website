@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <link rel="icon" href="ACE ESTACY LOGO.png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js" integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js" integrity="sha512-OzC82YiH3UmMMs6Ydd9f2i7mS+UFL5f977iIoJ6oy07AJT+ePds9QOEtqXztSH29Nzua59fYS36knmMcv79GOg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Sample</title>
+</head>
+<body>
+    <div id="Navbar">
+        <h1 id="logo">logo</h1>
+        <nav id="navbtn">
+           <a href="index.html"><h4 class="btn">Home</h4></a>
+           <a href="index.html"><h4 class="btn">About-Us</h4></a>
+           <a href="#contact"><h4 class="btn">Contact-Us</h4></a>
+        </nav>
+        <img src="navbarimg.png" id="navimg">
+    </div>  
+    <div id="main">
+        <section id="p1">
+         <img src="background.jpg" id="backimg">
+         <h1 id="tag">Your tag line</h1>
+         <p id="subtag">A very short summary of what you offer</p>
+        </section>
+        <section id="p2">
+        <h1 id="title1">About the company</h1>
+        <p id="con"><span id="line1">over here there will be a company main discription with
+ approximately 100 words</span> <span id="line2">which will provide a overview of the company 
+ and the things</span> <span id="line3">the company provides and what are the main key points. 
+ this is often here because out of 100 people 10 people visit the about us page</span> <span id="line4">
+ and it make coustomer know about the company a little more without going to the 
+ about us page</span>
+        </p>
+        </section>
+        <section id="p3">
+         <h1 id="title2">Services/Products</h1>
+        <div id="can1">
+        <div class="box one">
+         <div class="innerbox">
+            <p class="heading">Your Product/Service </p>
+         </div>
+         <h1>The product/servies breaf discription</h1>
+         <p class="sampletext">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim natus repellendus fugit, laudantium officiis iusto consectetur reprehenderit tenetur ut modi placeat similique explicabo cum iste neque itaque fugiat qui vero.</p>
+        </div>
+        <div class="box two">
+            <div class="innerbox"> 
+                <p class="heading">Your Product/Service </p>
+            </div>
+            <h1 >The product/servies breaf discription</h1>
+            <p class="sampletext">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta facere unde impedit necessitatibus illo, vel in eveniet accusamus inventore esse consectetur nam corrupti ipsam neque voluptate! Atque quod soluta odit.</p>
+           </div>
+        
+        </div>
+        </section>
+        <div id="contact">
+           <form onsubmit="sabmit();reset();return false;"  >
+            <h1 id="mess">Get in touch </h1>
+            <input type="text" placeholder="Your name....."><br>
+            <input type="text" placeholder="Subject.... "><br>
+            <input type="text" placeholder="message..."><br>
+            <label id="change-text">The message was sent </label><br>
+            <button id="sendbtn">Send</button>
+     
+           </form>
+           <h1 class="info">Email id :sample@abc.com</h1>
+           <h1 class="info">Contact number : 1122334455</h1>
+        </div>
+    </div>
+    <section id="footer">
+     <h1>here will be you all social media handel your licensing will come </h1>
+    </section>
+<script src="index.js"></script>
+</body>
+</html>
